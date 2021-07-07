@@ -3,6 +3,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
+    margin-bottom: 100px;
+}
+.flex-area{
     display: flex;
 }
 
@@ -84,6 +87,49 @@ h1{
     text-align: right;
 }
 
-.image-width img{
-    width:100%;
+.about img{
+    width:50%;
+}
+
+.about-banner{
+    background-image: url(image/shape/7.png);
+    background-repeat: none;
+    padding:5%;
+}
+.recipies{
+    text-align: center;
+    padding-left: 10%;
+}
+.food-cete{
+    padding:1%;
+}
+.box-shadow{
+    width:33%;
+    box-shadow: 10px 10px 15px #fc8e498a;
+    border-radius: 18px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10px;
+}
+.box-shadow img{
+    width: 100%;
+    height: 250px;
+    border-radius: 18px;
+}
+
+.rech{
+    width:89%;
+    box-shadow: 10px 10px 15px #fc8e498a;
+    border-radius: 18px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.padn{
+    padding-right:10%;
+    padding-left: 15%;
+}
+.Y-padn{
+    padding-right: 20%;
 }
